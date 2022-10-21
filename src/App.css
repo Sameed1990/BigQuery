@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+li{
+  color: white !important;
+  list-style: none;
+}
+.main-login {
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  flex-direction: column;
+}
+
+.main-heading {
+  margin: 20px 0px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 30%; */
+}
+
+.submit-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.submit-btn>button {
+  padding: 10px 30px;
+}
+
+
+
+/* mainpage styling  */
+.table-name > h3{
+  color: white !important;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.center > .filter-drop{
+  margin: 0px 10px  ;
+  width: 50%;
+}
+.form-select:hover{
+  cursor: pointer;
+}
+.filter-btn > .btn{
+  padding: 7px 30px;
+}
+.right {
+  display: flex;
+}
+.upgrade-btn{
+  margin: 0px 15px;
+}
+a.navbar-brand {
+  color: white;
+}
+.navbar-toggler-icon{
+  filter: brightness(0) invert(1);
+}
+h5#offcanvasNavbarLabel {
+  color: white !important;
+}
+button.btn-close {
+  /* color: white; */
+  filter: brightness(0) invert(1);
+}
+.nav-item{
+  margin: 10px 0px;
+}
+#show{
+  display: none;
+}
+/* Main-Body  */
+.main-body{
+  margin-top: 50px ;
+}
+td{
+  width: 10%;
+  padding: inherit !important;
+}
+input#inputPassword2 {
+  border: none !important;
+}
+.form-control:focus {
+ outline: inherit !important;
+ /* border: 0px !important; */
+ box-shadow: inherit !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .container-fluid :nth-child(2) { order: 3; }
+  .container-fluid{
+    flex-wrap: wrap;
+  }
+  .center{
+    width: 100%;
+    margin-top: 15px;
+  }
+  .center > .filter-drop {
+    width: 50%;
+}
+.main-body {
+  margin-top: 100px;
+}
+input#inputPassword2 {
+  width: 140px;
+}
+
+}
+
+@media screen and (max-width:400px) {
+  .upgrade-btn{
+    margin: inherit !important;
+    display: none;
+  }
+  .center >   .filter-drop{
+    width: 100%;
+  }
+  #show{
+    display: block;
+    margin: inherit !important;
+    width: 100%;
+  }
+  #show > button{
+    width: 100%;
+    margin: inherit;
+  }
+  input#inputPassword2 {
+    width: 111px;
+} 
+}
